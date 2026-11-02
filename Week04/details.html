@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lanka Explorer helps travellers discover and plan trips around Sri Lanka.">
+  <meta name="author" content="ROKSHAN TAVINJANA">
+  <title>Lanka Explorer | Destination Details</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="preconnect" href="https://tile.openstreetmap.org">
+  <link rel="preconnect" href="https://api.open-meteo.com">
+  <link rel="preconnect" href="https://api.frankfurter.dev">
+  <link rel="preconnect" href="https://open.er-api.com">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header>
+    <a href="index.html" class="logo"><span class="logo-mark" aria-hidden="true">LK</span> Lanka Explorer</a>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="trip.html">My Trip</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+
+    <article id="destination">
+      <p class="no-results" aria-live="polite">Loading destination...</p>
+    </article>
+
+    <section aria-labelledby="weather-title">
+      <h2 id="weather-title">Weather Now &amp; 3-Day Forecast</h2>
+      <div id="weather" aria-live="polite">Loading weather...</div>
+    </section>
+
+    <section aria-labelledby="location-title">
+      <h2 id="location-title">Location</h2>
+      <div id="map">Loading map...</div>
+    </section>
+
+    <div class="details-actions">
+      <button id="add-to-trip" type="button" aria-pressed="false">Add to My Trip</button>
+      <a href="destinations.html" class="btn btn-secondary">Back to all destinations</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Lanka Explorer – <span data-student-name>ROKSHAN TAVINJANA</span>. All rights reserved.</p>
+    <p>Solo mini project · <a href="mailto:hello@lankaexplorer.lk">hello@lankaexplorer.lk</a> · <a href="https://github.com/tavinjanarokshan-design/lanka-explorer" target="_blank" rel="noopener noreferrer">GitHub repository</a></p>
+  </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lanka Explorer helps travellers discover and plan trips around Sri Lanka.">
+  <meta name="author" content="ROKSHAN TAVINJANA">
+  <title>Lanka Explorer | My Trip</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header>
+    <a href="index.html" class="logo"><span class="logo-mark" aria-hidden="true">LK</span> Lanka Explorer</a>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="trip.html" class="active" aria-current="page">My Trip</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <h1>My Trip</h1>
+    <p>This planner becomes interactive in Week 05, when localStorage and the currency API are added.</p>
+
+    <div class="trip-toolbar">
+      <label for="travellers">Number of travellers</label>
+      <input type="number" id="travellers" min="1" value="1">
+    </div>
+
+    <table id="trip-table">
+      <thead>
+        <tr>
+          <th>Destination</th>
+          <th>Category</th>
+          <th>Entry Fee (USD)</th>
+          <th>Entry Fee (LKR)</th>
+          <th>Remove</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Rows are added by JavaScript in Week 05 -->
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Total</td>
+          <td id="total-usd">0</td>
+          <td id="total-lkr">0</td>
+          <td></td>
+        </tr>
+      </tfoot>
+    </table>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Lanka Explorer – <span data-student-name>ROKSHAN TAVINJANA</span>. All rights reserved.</p>
+    <p>Solo mini project · <a href="mailto:hello@lankaexplorer.lk">hello@lankaexplorer.lk</a> · <a href="https://github.com/tavinjanarokshan-design/lanka-explorer" target="_blank" rel="noopener noreferrer">GitHub repository</a></p>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>

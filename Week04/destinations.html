@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lanka Explorer helps travellers discover and plan trips around Sri Lanka.">
+  <meta name="author" content="ROKSHAN TAVINJANA">
+  <title>Lanka Explorer | Destinations</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="preconnect" href="https://tile.openstreetmap.org">
+  <link rel="preconnect" href="https://api.open-meteo.com">
+  <link rel="preconnect" href="https://api.frankfurter.dev">
+  <link rel="preconnect" href="https://open.er-api.com">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header>
+    <a href="index.html" class="logo"><span class="logo-mark" aria-hidden="true">LK</span> Lanka Explorer</a>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html" class="active" aria-current="page">Destinations</a></li>
+        <li><a href="trip.html">My Trip</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <section id="page-title">
+      <p class="eyebrow">Browse Sri Lanka</p>
+      <h1>All Destinations</h1>
+      <p>Find your next adventure across the island.</p>
+    </section>
+
+    <section id="controls" aria-label="Search and filter destinations">
+      <div class="control-group">
+        <label for="search">Search</label>
+        <input type="search" id="search" placeholder="e.g. Ella">
+      </div>
+      <div class="control-group">
+        <label for="category">Category</label>
+        <select id="category">
+          <option value="all">All</option>
+          <option value="Heritage">Heritage</option>
+          <option value="Beach">Beach</option>
+          <option value="Nature">Nature</option>
+          <option value="Wildlife">Wildlife</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="sort">Sort by</label>
+        <select id="sort">
+          <option value="name">Name (A–Z)</option>
+          <option value="fee-low">Entry fee (low to high)</option>
+          <option value="fee-high">Entry fee (high to low)</option>
+        </select>
+      </div>
+      <button id="clear-filters" type="button">Clear filters</button>
+    </section>
+    <p id="result-count" aria-live="polite"></p>
+
+    <section id="destination-list" aria-label="All destinations">
+      <p class="no-results">Loading destinations...</p>
+    </section>
+
+    <section id="map-section" aria-labelledby="map-title">
+      <h2 id="map-title">Explore on the Map</h2>
+      <div id="all-map">Map will load here.</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Lanka Explorer – <span data-student-name>ROKSHAN TAVINJANA</span>. All rights reserved.</p>
+    <p>Solo mini project · <a href="mailto:hello@lankaexplorer.lk">hello@lankaexplorer.lk</a> · <a href="https://github.com/tavinjanarokshan-design/lanka-explorer" target="_blank" rel="noopener noreferrer">GitHub repository</a></p>
+  </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>
