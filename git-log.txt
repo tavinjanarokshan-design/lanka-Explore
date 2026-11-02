@@ -1,0 +1,14 @@
+Lanka Explorer — local Git history
+=================================
+
+230cc49 (HEAD -> main) Week 05: trip planner, dark mode and final polish
+3204a9a Week 04: weather, currency and map APIs
+25cc57c Week 03: dynamic cards, filters and form validation
+c093d7f Week 02: responsive CSS theme and mobile menu
+2cb173d Week 01: semantic HTML skeleton and destinations data
+
+Remote:
+origin	https://github.com/tavinjanarokshan-design/lanka-explorer.git (fetch)
+origin	https://github.com/tavinjanarokshan-design/lanka-explorer.git (push)
+
+Status: clean (five weekly commits; no push performed)

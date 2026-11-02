@@ -1,0 +1,28 @@
+Lanka Explorer — Hosted Link / Notepad file
+===========================================
+
+PRIMARY PUBLIC HOSTED SITE (share this link):
+https://my-1e9c9ig3oq.brewpage.app/
+Valid until 2 December 2026.
+
+ARENA LIVE PREVIEW (workspace preview panel):
+https://8000-ievlemzkk36tsxm86z7uh.e2b.app/
+
+GITHUB REPOSITORY (tavinjanarokshan-design):
+https://github.com/tavinjanarokshan-design/lanka-explorer
+
+GITHUB PAGES (permanent link after pushing the included workflow):
+https://tavinjanarokshan-design.github.io/lanka-explorer/
+
+Student: ROKSHAN TAVINJANA
+Project: Lanka Explorer — Mini Project, Weeks 01–05
+Prepared: 2 November 2026
+
+Notes:
+- The primary hosted link is a public, unlisted static deployment of Week05/ and is
+  immediately shareable. A small BrewPage hosting badge is injected by the free host.
+- The Arena preview is a second working link for this workspace session. If a direct
+  paste asks for an E2B traffic token, open it from the "Lanka Explorer" live-preview panel.
+- Run ./prepare-github-repo.sh tavinjanarokshan-design, push to GitHub, and enable the included
+  GitHub Actions Pages workflow for a permanent URL that outlasts the 30-day preview host.
+- The final site source is in Week05/. Open it through a web server, not file://.

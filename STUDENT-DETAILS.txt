@@ -1,0 +1,13 @@
+Lanka Explorer — Student details
+================================
+
+Full name: ROKSHAN TAVINJANA
+Student ID: [Add your student ID if required]
+Course: Mini Project — Lanka Explorer
+Submission date: 2 November 2026
+GitHub username: tavinjanarokshan-design
+GitHub profile name: ROKSHAN TAVINJANA UDUGAMASOORIYA
+Repository: https://github.com/tavinjanarokshan-design/lanka-explorer
+Public hosted link: https://my-1e9c9ig3oq.brewpage.app/ (valid until 2 December 2026)
+Arena preview: https://8000-ievlemzkk36tsxm86z7uh.e2b.app/
+GitHub Pages after push: https://tavinjanarokshan-design.github.io/lanka-explorer/
