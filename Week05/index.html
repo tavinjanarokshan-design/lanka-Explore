@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lanka Explorer helps travellers discover and plan trips around Sri Lanka.">
+  <meta name="theme-color" content="#0b6e6e">
+  <meta name="author" content="ROKSHAN TAVINJANA">
+  <title>Lanka Explorer | Home</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="images/sigiriya-1200.webp">
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="preconnect" href="https://tile.openstreetmap.org">
+  <link rel="preconnect" href="https://api.open-meteo.com">
+  <link rel="preconnect" href="https://api.frankfurter.dev">
+  <link rel="preconnect" href="https://open.er-api.com">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header>
+    <a href="index.html" class="logo"><span class="logo-mark" aria-hidden="true">LK</span> Lanka Explorer</a>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="trip.html">My Trip</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><button class="theme-toggle" type="button" aria-pressed="false">Dark mode</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <section id="hero">
+      <p class="eyebrow">Sri Lanka, in one smart itinerary</p>
+      <h1>Discover the Pearl of the Indian Ocean</h1>
+      <p>Ancient cities, golden beaches, misty hills and wild elephants, all in one island. Browse ten places, check live conditions and build a trip that stays saved in your browser.</p>
+      <div class="hero-actions">
+        <a href="destinations.html" class="btn">Start Exploring</a>
+        <a href="trip.html" class="btn btn-secondary">View My Trip</a>
+      </div>
+    </section>
+
+    <section id="stats" aria-labelledby="stats-title">
+      <h2 id="stats-title">At a glance</h2>
+      <ul class="stat-strip">
+        <li><strong>10</strong><span>Verified destinations</span></li>
+        <li><strong>4</strong><span>Travel categories</span></li>
+        <li><strong>3</strong><span>Live data services</span></li>
+        <li><strong>2</strong><span>Colour themes</span></li>
+      </ul>
+    </section>
+
+    <section id="categories" aria-labelledby="categories-title">
+      <h2 id="categories-title">Explore by Category</h2>
+      <article>
+        <h3>Heritage</h3>
+        <p>Walk through 2,000 years of history at Sigiriya, Galle and Anuradhapura.</p>
+      </article>
+      <article>
+        <h3>Beach</h3>
+        <p>Surf in Arugam Bay or relax on the sands of Mirissa and Unawatuna.</p>
+      </article>
+      <article>
+        <h3>Nature</h3>
+        <p>Ride the train through tea country to Ella and Nuwara Eliya.</p>
+      </article>
+      <article>
+        <h3>Wildlife</h3>
+        <p>Spot leopards in Yala and elephants in Minneriya.</p>
+      </article>
+    </section>
+
+    <section id="featured" aria-labelledby="featured-title">
+      <h2 id="featured-title">Featured Destinations</h2>
+      <div id="featured-status" class="no-results" aria-live="polite">Loading featured destinations...</div>
+    </section>
+
+    <section id="why-us" aria-labelledby="why-title">
+      <h2 id="why-title">Why Lanka Explorer?</h2>
+      <ul>
+        <li>Live weather for every destination</li>
+        <li>Entry fees converted to Sri Lankan rupees</li>
+        <li>An interactive map of the island</li>
+        <li>Your own trip planner and budget</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Lanka Explorer – <span data-student-name>ROKSHAN TAVINJANA</span>. All rights reserved.</p>
+    <p>Solo mini project · <a href="mailto:hello@lankaexplorer.lk">hello@lankaexplorer.lk</a> · <a href="https://github.com/tavinjanarokshan-design/lanka-explorer" target="_blank" rel="noopener noreferrer">GitHub repository</a></p>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>
