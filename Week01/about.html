@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lanka Explorer helps travellers discover and plan trips around Sri Lanka.">
+  <meta name="author" content="ROKSHAN TAVINJANA">
+  <title>Lanka Explorer | About</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header>
+    <a href="index.html" class="logo"><span class="logo-mark" aria-hidden="true">LK</span> Lanka Explorer</a>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="trip.html">My Trip</a></li>
+        <li><a href="about.html" class="active" aria-current="page">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <section aria-labelledby="about-title">
+      <p class="eyebrow">About the project</p>
+      <h1 id="about-title">About Us</h1>
+      <p>Lanka Explorer is a solo mini project by <strong data-student-name>ROKSHAN TAVINJANA</strong>. It helps travellers compare Sri Lankan destinations, check live weather and maps, convert entry fees into rupees, and assemble a saved trip budget. The site was built in five weekly stages, from semantic HTML to API integrations and browser storage.</p>
+    </section>
+
+    <section id="team" aria-labelledby="team-title">
+      <h2 id="team-title">Our Team</h2>
+      <article>
+        <h3 data-student-name>ROKSHAN TAVINJANA</h3>
+        <p>Project Lead · Content Lead · Data Lead · UI Lead</p>
+        <p>Solo submission: responsible for structure, styling, JavaScript, APIs, testing and deployment.</p>
+      </article>
+    </section>
+
+
+    <section id="enquiry" aria-labelledby="enquiry-title">
+      <h2 id="enquiry-title">Plan Your Trip With Us</h2>
+      <form id="enquiry-form">
+        <label for="name">Full name</label>
+        <input type="text" id="name" name="name" autocomplete="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" autocomplete="email" required>
+
+        <label for="date">Travel date</label>
+        <input type="date" id="date" name="date">
+
+        <label for="people">Number of travellers</label>
+        <input type="number" id="people" name="people" min="1" max="20" required>
+
+        <fieldset>
+          <legend>Interests</legend>
+          <label><input type="checkbox" name="interest" value="Heritage"> Heritage</label>
+          <label><input type="checkbox" name="interest" value="Beach"> Beach</label>
+          <label><input type="checkbox" name="interest" value="Nature"> Nature</label>
+          <label><input type="checkbox" name="interest" value="Wildlife"> Wildlife</label>
+        </fieldset>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" aria-describedby="message-hint"></textarea>
+        <p id="message-hint" class="field-hint">Tell us about your ideal trip. </p>
+
+
+        <button type="submit">Send Enquiry</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Lanka Explorer – <span data-student-name>ROKSHAN TAVINJANA</span>. All rights reserved.</p>
+    <p>Solo mini project · <a href="mailto:hello@lankaexplorer.lk">hello@lankaexplorer.lk</a> · <a href="https://github.com/tavinjanarokshan-design/lanka-explorer" target="_blank" rel="noopener noreferrer">GitHub repository</a></p>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>

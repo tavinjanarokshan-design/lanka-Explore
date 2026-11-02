@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lanka Explorer helps travellers discover and plan trips around Sri Lanka.">
+  <meta name="author" content="ROKSHAN TAVINJANA">
+  <title>Lanka Explorer | Destination Details</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header>
+    <a href="index.html" class="logo"><span class="logo-mark" aria-hidden="true">LK</span> Lanka Explorer</a>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="trip.html">My Trip</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+
+    <article id="destination">
+      <picture>
+        <source type="image/webp" srcset="images/sigiriya-600.webp 600w, images/sigiriya-1200.webp 1200w" sizes="(max-width: 768px) 90vw, 1100px">
+        <img src="images/sigiriya.jpg" srcset="images/sigiriya-600.jpg 600w, images/sigiriya.jpg 1200w" sizes="(max-width: 768px) 90vw, 1100px" alt="Sigiriya Rock Fortress viewed from Pidurangala Rock" loading="eager" decoding="async">
+      </picture>
+      <h1>Sigiriya Rock Fortress</h1>
+      <p class="meta">Matale District · Heritage</p>
+      <p>A 5th-century rock fortress and UNESCO World Heritage Site rising almost 200 m above the central plains.</p>
+      <h2>Quick Facts</h2>
+      <ul>
+        <li><strong>Best time to visit:</strong> January to April</li>
+        <li><strong>Entry fee:</strong> USD 35 (Premium)</li>
+        <li><strong>Time needed:</strong> 3–4 hours</li>
+        <li><strong>Coordinates:</strong> 7.957, 80.7603</li>
+      </ul>
+    </article>
+
+    <section aria-labelledby="weather-title">
+      <h2 id="weather-title">Weather Now &amp; 3-Day Forecast</h2>
+      <div id="weather" aria-live="polite">Weather will load here (Week 04).</div>
+    </section>
+
+    <section aria-labelledby="location-title">
+      <h2 id="location-title">Location</h2>
+      <div id="map">Map will load here (Week 04).</div>
+    </section>
+
+    <div class="details-actions">
+      <button id="add-to-trip" type="button" aria-pressed="false">Add to My Trip</button>
+      <a href="destinations.html" class="btn btn-secondary">Back to all destinations</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Lanka Explorer – <span data-student-name>ROKSHAN TAVINJANA</span>. All rights reserved.</p>
+    <p>Solo mini project · <a href="mailto:hello@lankaexplorer.lk">hello@lankaexplorer.lk</a> · <a href="https://github.com/tavinjanarokshan-design/lanka-explorer" target="_blank" rel="noopener noreferrer">GitHub repository</a></p>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>
